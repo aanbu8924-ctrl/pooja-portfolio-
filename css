@@ -1,0 +1,14 @@
+header {
+    display: flex; /* Make the header a flex container */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Vertically center the items */
+    padding: 20px 50px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none; /* Remove bullet points */
+    gap: 20px; /* Add space between links */
+}
